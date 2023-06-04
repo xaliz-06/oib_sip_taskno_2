@@ -1,0 +1,269 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  background-image: url(./img/max-mckinnon-c9OCWLka764-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family: "Geologica", sans-serif;
+  transition: all 0.4s ease-in-out;
+}
+
+hr {
+  width: 85%;
+  height: 5px;
+  margin: 3rem auto;
+  background-color: #c7bebe;
+  border-radius: 5px;
+}
+
+.container {
+  min-height: auto;
+}
+
+.homepage-container {
+  min-height: 85vh;
+  margin: auto;
+  margin-top: 2.5rem;
+  width: 90%;
+  background-color: #45454580;
+  padding: 3rem;
+  border-radius: 20px;
+}
+
+.homepage-header {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+#name-header {
+  font-size: 2.4rem;
+}
+
+.homepage-info {
+  margin: 0.5rem;
+  padding: 0.3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.homepage-image-container,
+.homepage-side {
+  width: 50%;
+  min-height: 100%;
+}
+
+.homepage-side {
+  padding: 9rem;
+  text-align: center;
+  padding: 2rem 6rem;
+}
+
+.side-para {
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+.hero-style {
+  color: rgb(43, 216, 216);
+}
+
+.homepage-image-container {
+  padding-top: 2rem;
+}
+
+.hero-image {
+  aspect-ratio: 16/9;
+  width: 100%;
+  border-radius: 20px;
+  transition: all 0.8s ease-in-out;
+}
+
+.hero-image:hover {
+  transform: scale(1.1);
+  transition: all 0.8s ease-in-out;
+}
+
+/* INFO STYLES */
+
+.year-info {
+  border-bottom: 2px dashed #f3f3f3;
+  font-size: 1.2rem;
+  color: rgb(43, 216, 216);
+}
+
+.info-container {
+  margin: 4rem auto;
+  width: 80%;
+}
+
+.info-content {
+  padding: 3rem;
+  background-color: #45454580;
+  border-radius: 20px;
+}
+
+.info-header-container {
+  margin: 0.5rem auto 2rem;
+  text-align: center;
+}
+
+#info-header {
+  font-size: 2rem;
+}
+
+.info-list-container {
+  width: 80%;
+  margin: auto;
+}
+
+.info-item {
+  padding: 0.5rem;
+  /* line-height: 5px; */
+}
+
+/* CAROUSEL */
+
+.cust-img {
+  aspect-ratio: 16/9;
+  width: 80%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.carousel-caption > h5 {
+  font-size: 0.7rem;
+}
+
+.carousel-caption > p {
+  font-size: 0.5rem;
+  font-style: italic;
+}
+
+/* WORKS */
+
+.works-container {
+  margin: 4rem auto;
+  width: 90%;
+}
+
+.works-content {
+  padding: 2rem;
+  background-color: #45454580;
+  border-radius: 20px;
+}
+
+.works-header-container {
+  margin: 0.5rem auto 2rem;
+  text-align: center;
+}
+
+#works-header {
+  font-size: 2rem;
+}
+
+.works {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0 1rem;
+}
+
+.work {
+  width: 33.3%;
+  padding: 1rem;
+}
+
+.work-header-container {
+  margin: 0.5rem auto 1.2rem;
+}
+
+.work-header {
+  font-size: 1.5rem;
+}
+
+.work-list-item {
+  font-size: 0.8rem;
+  padding: 0.5rem 0.2rem;
+}
+
+/* QUOTE */
+
+.quote-container {
+  margin: 4rem auto;
+  width: 80%;
+}
+
+.quote-content {
+  padding: 4rem;
+  background-color: #45454580;
+  border-radius: 20px;
+}
+
+#quote-style {
+  font-style: italic;
+}
+
+.blockquote {
+  padding: 60px 80px 0px;
+  position: relative;
+}
+
+.blockquote:before {
+  position: absolute;
+  top: -60px;
+  left: -20px;
+
+  content: "\201C";
+  font-size: 200px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.blockquote::after {
+  content: "";
+  top: 20px;
+  left: 50%;
+  margin-left: -50px;
+  position: absolute;
+  height: 3px;
+  width: 200px;
+}
+
+.quote-by {
+  padding: 10px 70px;
+}
+
+#quote-by-style {
+  font-size: 0.8rem;
+}
+
+/* CREDITS */
+
+.credits-container {
+  margin: 5rem 1rem 1rem;
+}
+
+.credits {
+  display: flex;
+  flex-direction: column;
+}
+
+.credits-header {
+  font-size: 1.6rem;
+  padding: 1.5rem auto;
+  text-decoration: underline;
+}
+
+.credit-style {
+  font-size: 0.8rem;
+}
